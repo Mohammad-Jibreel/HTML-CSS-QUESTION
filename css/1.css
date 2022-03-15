@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+   font-family:Georgia, 'Times New Roman', Times, serif
+
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+    background-image: url('../images/palne.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+  
+  header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+  .note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+ul li  {
+  display: inline-block;
+  
+  
+}
+ul {
+  text-align: center;
+
+ 
+
+}
+img {
+ position: relative;
+ top:10px;
+}
+nav {
+  border:1px solid white;
+width: 60%;
+margin-left: 20%;
+height:60px;
+border-radius: 5px;
+animation-name: move;
+position: relative;
+animation-duration: 3s;
+}
+li:hover {
+  font-weight: bold;
+  color:black;
+  font-size:20px;
+}
+nav:hover {
+  color:#f5ba13;
+  background-color: white;
+}
+
+@keyframes move {
+  0%{left:20px;top:10px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bold;}
+  25%{left:20px;top:10px;font-size: 20px;}
+  50%{left:20px;top:10px;color:white}
+  75%{left:20px;top:10px;color:orange}
+  100%{left:20px;top:10px;color:#FFAE00}
+
+  
+}
+form {
+  text-align: center;
+  margin-top:20px;
+  color:black;
+  font-weight: bold;
+}
+input {
+  width:300px;
+  font-size:20px;
+border-radius: 3px;
+padding:2px;
+margin:10px;
+}
+label {
+  color:#FFAE00;
+  letter-spacing: 5px;
+  line-height: 2;
+}
+.phone {
+width:250px;
+margin-right:20px;
+
+}
+
+select {
+  line-height: 2;
+  height: 31px;
+  position: relative;
+  top:-2px;
+  margin:-10px;
+
+  border-radius: 3px;
+  margin-left: 20px;
+  
+
+}
+span {
+  position: relative;
+  left:-120px;
+  margin:10px;
+  padding:10px;
+  color:white;
+  font-weight: bold;
+  
+}
+
+
+button {
+  padding:10px;
+  margin:10px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+  background-color:#f5ba13;
+  border-radius: 4px;
+
+}
+button:hover{
+  color:#f5ba13;
+  background-color:white;
+  font-size:24px;
+}
+fieldset {
+  border-style: dashed;
+  width: 50%;
+position: relative;
+left: 25%;
+}
